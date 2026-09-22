@@ -8,13 +8,13 @@
     "selection.background": "#689d6a80",
     "scrollbar.shadow": "#282828",
     "activityBar.foreground": "#ebdbb2",
-    "activityBar.background": "#252526",
+    "activityBar.background": "#17171799",
     "activityBar.inactiveForeground": "#ffffff66",
     "activityBarBadge.foreground": "#ebdbb2",
     "activityBarBadge.background": "#458588",
     "activityBar.border": "#00000000",
     "activityBar.activeBackground": "#3e56487e",
-    "sideBar.background": "#252526",
+    "sideBar.background": "#17171799",
     "sideBar.foreground": "#d5c4a1",
     "sideBarSectionHeader.background": "#00000000",
     "sideBarSectionHeader.foreground": "#cccccc",
@@ -54,7 +54,7 @@
     "menubar.selectionBackground": "#4d824b36",
     "menubar.selectionBorder": "#ff000000",
     "menu.foreground": "#ebdbb2",
-    "menu.background": "#252526",
+    "menu.background": "#171717",
     "menu.selectionForeground": "#ffffff",
     "menu.selectionBackground": "#689d6a26",
     "menu.selectionBorder": "#00000000",
@@ -126,7 +126,7 @@
     "diffEditor.insertedTextBackground": "#9bb95533",
     "diffEditor.removedTextBackground": "#ff000033",
     "diffEditor.border": "#444444",
-    "panel.background": "#252526",
+    "panel.background": "#17171799",
     "panel.border": "#80808000",
     "panelTitle.activeBorder": "#ebdbb2",
     "panelTitle.activeForeground": "#ebdbb2",
@@ -384,6 +384,36 @@
       "settings": {
         "foreground": "#d4d4d4"
       }
+    },
+    {
+      "name" : "Markup Inline",
+      "scope" : [
+        "markup.inline.raw",
+        "punctuation.definition.raw.markdown"
+      ],
+      "settings": {
+        "foreground": "#a3b39a",
+      },
+    },
+    {
+      "name" : "Markup Bold",
+      "scope" : [
+        "markup.bold.markdown"
+      ],
+      "settings": {
+        "foreground": "#d9ab7c",
+        "fontStyle": "bold"
+      },
+    },
+    {
+      "name" : "Markup Italic",
+      "scope" : [
+        "markup.italic"
+      ],
+      "settings": {
+        "foreground": "#d9ab7c",
+        "fontStyle": "italic"
+      },
     }
   ],
   "semanticHighlighting": false,
