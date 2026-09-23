@@ -12,9 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Redwood Forest (Dark)",
+        "label": "Redwood Forest Dark (Hard)",
         "uiTheme": "vs-dark",
-        "path": "./themes/redwood-forest-dark.json"
+        "path": "./themes/redwood-forest-dark-hard.json"
+      },
+      {
+        "label": "Redwood Forest Dark (Medium)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/redwood-forest-dark-medium.json"
       }
     ]
   }
